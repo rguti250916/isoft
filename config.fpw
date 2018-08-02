@@ -1,0 +1,12 @@
+SCREEN = OFF
+SET COLLATE TO MACHINE
+TMPFILES \temp
+title=FenixCoop
+SCREEN.caption="iSoft Plus "+objAplicacion.basedatos+"-"+objAplicacion.ip
+SORTWORK=\temp
+SCREEN = OFF
+KEYBCOMP=DOS
+*RESOURCE=OFF
+mvcount  = 3600
+MEMLIMIT = 80, 4096, 16384
+CODEPAGE = AUTO
